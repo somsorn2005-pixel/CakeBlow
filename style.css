@@ -4,7 +4,7 @@ body {
 
 .candle-count-display {
   text-align: center;
-  margin-top: 150px;
+  margin-top: 40px;
   margin-bottom: 20px;
   font-family: 'Arial', sans-serif;
   font-size: 20px;
@@ -19,6 +19,19 @@ body {
   border: 2px solid #553C13;
 }
 
+.microphone-status {
+  width: fit-content;
+  margin: 10px auto 0;
+  color: #f0e4d0;
+  font-family: 'Arial', sans-serif;
+  font-size: 14px;
+  text-align: center;
+}
+
+.microphone-status.error {
+  color: #ffb3b3;
+}
+
 .candle-count-display span {
   font-weight: bold;
   color: #AD030F;
@@ -28,7 +41,7 @@ body {
   position: absolute;
   width: 250px;
   height: 200px;
-  top: 50%;
+  top: 55%;
   left: 50%;
   margin-top: -70px;
   margin-left: -125px;
